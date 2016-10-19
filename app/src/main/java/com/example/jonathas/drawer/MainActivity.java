@@ -93,8 +93,6 @@ public class MainActivity extends AppCompatActivity
             fragmentManager.beginTransaction().
                     replace(R.id.content_main, new PrimeiroFragment())
                     .commit();
-
-
         } else if (id == R.id.nav_segundo_layout) {
             fragmentManager.beginTransaction().
                     replace(R.id.content_main, new SegundoFragment())
